@@ -53,4 +53,4 @@ PLATFORMS
 DEPENDENCIES
   eventstore (~> 0.1)
   pry
-  streamworker!
+  streamworker (~> 0.0.1)!
