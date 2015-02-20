@@ -4,7 +4,7 @@
 
 require 'uri'
 require 'feedjira'
-require_relative 'streamworker'
+require 'streamworker'
 
 handle 'new-blogs' do |state, event|
   join = lambda { |*args|
